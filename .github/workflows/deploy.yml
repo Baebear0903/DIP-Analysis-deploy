@@ -20,7 +20,7 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v4
         with:
-          repository: yourname/myapp-aistudio
+          repository: Baebear0903/DIP-Analysis
           path: source
           # 如果原仓库是私有仓库，打开下面这行
           # token: ${{ secrets.AISTUDIO_REPO_TOKEN }}
