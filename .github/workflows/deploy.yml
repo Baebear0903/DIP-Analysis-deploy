@@ -3,7 +3,7 @@ name: Deploy Vite site to Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: read
